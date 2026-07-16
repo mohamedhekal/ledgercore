@@ -1,5 +1,14 @@
 # LedgerCore
 
+
+[![CI](https://github.com/mohamedhekal/ledgercore/actions/workflows/tests.yml/badge.svg)](https://github.com/mohamedhekal/ledgercore/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4.svg)](https://www.php.net/)
+[![Laravel](https://img.shields.io/badge/Laravel-11%2F12-FF2D20.svg)](https://laravel.com/)
+
+**Search terms:** laravel, accounting, ledger, double-entry, journal, erp, fintech, php, laravel-package, bookkeeping, general-ledger, accounting-engine.
+
+
 Double-entry ledger engine for Laravel ERP/fintech apps: balanced journals, immutable postings, account balances, and fiscal period locks.
 
 Amounts are **integer minor units** (cents). Single currency in v0.1.

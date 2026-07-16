@@ -3,8 +3,25 @@
     "description": "Double-entry ledger engine for Laravel ERP/fintech: balanced journals, immutable postings, balances, and period locks",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "accounting", "ledger", "double-entry", "journal", "erp", "fintech"],
-    "authors": [{"name": "Mohamed Hekal"}],
+    "keywords": [
+        "laravel",
+        "accounting",
+        "ledger",
+        "double-entry",
+        "journal",
+        "erp",
+        "fintech",
+        "php",
+        "laravel-package",
+        "bookkeeping",
+        "general-ledger",
+        "accounting-engine"
+    ],
+    "authors": [
+        {
+            "name": "Mohamed Hekal"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
@@ -20,15 +37,23 @@
         "phpstan/phpstan": "^2.0"
     },
     "autoload": {
-        "psr-4": {"Hekal\\LedgerCore\\": "src/"}
+        "psr-4": {
+            "Hekal\\LedgerCore\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"Hekal\\LedgerCore\\Tests\\": "tests/"}
+        "psr-4": {
+            "Hekal\\LedgerCore\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "laravel": {
-            "providers": ["Hekal\\LedgerCore\\LedgerCoreServiceProvider"],
-            "aliases": {"Ledger": "Hekal\\LedgerCore\\Facades\\Ledger"}
+            "providers": [
+                "Hekal\\LedgerCore\\LedgerCoreServiceProvider"
+            ],
+            "aliases": {
+                "Ledger": "Hekal\\LedgerCore\\Facades\\Ledger"
+            }
         }
     },
     "scripts": {
@@ -38,8 +63,15 @@
     },
     "config": {
         "sort-packages": true,
-        "allow-plugins": {"pestphp/pest-plugin": true}
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "homepage": "https://github.com/mohamedhekal/ledgercore",
+    "support": {
+        "issues": "https://github.com/mohamedhekal/ledgercore/issues",
+        "source": "https://github.com/mohamedhekal/ledgercore"
+    }
 }
