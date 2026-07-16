@@ -1,5 +1,5 @@
 {
-    "name": "mohamedmohamedhekal/ledgercore",
+    "name": "mohamedhekal/ledgercore",
     "description": "Double-entry ledger engine for Laravel ERP/fintech: balanced journals, immutable postings, balances, and period locks",
     "type": "library",
     "license": "MIT",
@@ -69,9 +69,9 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "homepage": "https://github.com/mohamedmohamedhekal/ledgercore",
+    "homepage": "https://github.com/mohamedhekal/ledgercore",
     "support": {
-        "issues": "https://github.com/mohamedmohamedhekal/ledgercore/issues",
-        "source": "https://github.com/mohamedmohamedhekal/ledgercore"
+        "issues": "https://github.com/mohamedhekal/ledgercore/issues",
+        "source": "https://github.com/mohamedhekal/ledgercore"
     }
 }
