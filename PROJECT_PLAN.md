@@ -2,7 +2,7 @@
 
 ## Name
 
-**LedgerCore** (`hekal/ledgercore`)  
+**LedgerCore** (`mohamedhekal/ledgercore`)  
 Alternatives: `journalkit`, `doubleentry`
 
 ## Vision
